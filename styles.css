@@ -1,0 +1,159 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo1 {
+    height: 16.67px;
+}
+
+nav li {
+    display: inline;
+    margin: 1rem;
+
+}
+
+ul{
+    overflow: hidden;
+}
+
+li {
+    float: left
+}
+
+li a {
+    display: block;
+    text-align:center;
+    text-decoration: none;
+}
+
+main {
+    margin: 1rem auto;
+    width: 90%
+}
+
+main section {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+}
+
+ .about-us {
+    display: grid;
+    grid-template-areas: 
+    "top-l top top-r"
+    "mid-l mid mid-r"
+    "bot-l bot bot-r";
+}
+
+.vase {
+    grid-column-start: mid-l;
+    grid-column-end: mid-l;
+    grid-row-start: mid-l;
+    grid-row-end: bot-l;
+}
+
+.vase1 {
+    grid-column-start: top-r;
+    grid-column-end: top-r;
+    grid-row-start: top-r;
+    grid-row-end: bot-r;
+}
+
+.p1 {
+    grid-column-start: top-l;
+    grid-column-end: top;
+    grid-row-start: top-l;
+    grid-row-end: top-l;
+    padding: 10px;
+}
+
+.p2 {
+    grid-column-start: mid;
+    grid-column-end: mid;
+    grid-row-start: mid;
+    grid-row-end: mid;
+    padding: 15px;
+}
+
+.p3 {
+    grid-column-start: bot;
+    grid-column-end: bot;
+    grid-row-start: bot;
+    grid-row-end: bot;
+    padding: 15px;
+}
+
+.products {
+    display: grid;
+    grid-template-areas: 
+    "top-l top top-r"
+    "mid-l mid mid-r"
+    "bot-l bot bot-r";
+    max-width: fit-content;
+}
+
+.prod1 {
+    grid-area: top-l;
+    padding: 15px;
+}
+
+.prod1img {
+    max-width: 100%;
+}
+
+.prod2 {
+    grid-area: top;
+    padding: 15px;
+}
+
+.prod3 {
+    grid-area: top-r;
+    padding: 15px;
+}
+
+.prod4 {
+    grid-area: mid-l;
+    padding: 15px;
+}
+
+.prod5 {
+    grid-area: mid;
+    padding: 15px;
+}
+
+.prod6 {
+    grid-area: mid-r;
+    padding: 15px;
+}
+
+.prod7 {
+    grid-area: bot-l;
+    padding: 15px;
+}
+
+.prod8 {
+    grid-area: bot;
+    padding: 15px;
+}
+
+.prod9 {
+    grid-area: bot-r;
+    padding: 15px;
+}
